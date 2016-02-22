@@ -102,6 +102,8 @@ return {
                 h+='<p class="">'+i18n.nopix+'</p>';
             }
             h+=uiInput.text(fid, fv, f, null);
+            // Cesc
+            h+='<p>File <input type="file" name="thumbnail"> </p> <input type="submit">';
             return h;
         },
         color: function(f, fid, fv){
